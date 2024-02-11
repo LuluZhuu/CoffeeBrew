@@ -1,0 +1,132 @@
+h1{
+  color: white;
+  text-align: center;
+  font-family: arial;
+}
+
+h2{
+  color: #502E2C;
+  text-align: center;
+  font-family: arial;
+  padding-top: 10px;
+}
+
+#mainArea{
+  padding: 30px;
+}
+
+form{
+   text-align: center;
+}
+
+form p{
+  color: #502E2C;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+button{
+  margin-top: 20px;
+  border: 1px orange;
+}
+ 
+#submit{
+  text-align: center;
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#question{
+  text-align: center;
+  font-family: arial;
+  color: #502E2C;
+  padding-top: 20px;
+}
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #502E2C;
+
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+    gap: 5px;
+}
+
+nav ul a{
+    flex-grow: 1;
+  
+}
+
+nav ul a li{
+    text-align: center;
+    font-family: arial;
+    color: white;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+nav ul a li:hover{
+    color: orange;
+}
+
+footer {
+  background-color: #502E2C;
+  width: 100%;
+  padding: 10px;
+}
+
+footer{
+  position:relative;
+  height: 150px;
+}
+
+.footerSecHead {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer p {
+  color: #FFE9D0;
+  font-family: arial;
+}
+
+footer li {
+  color: #FFE9D0;
+  font-family: arial;
+  list-style-type: none
+}
+
+footer a {
+  color: #FFE9D0;
+  text-decoration: none;
+  font-family: arial;
+  list-style-type: none
+}
+
+input{
+  width: 350px;
+}
+
+.footerinfo{
+  display: inline-flex;
+}
+
+#pages{
+  position: absolute;
+  left: 50px;
+}
+
+#contact{
+  position: absolute;
+  right: 10px;
+}
